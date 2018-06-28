@@ -40,7 +40,7 @@ gpg:                using RSA key 0x49B4C67C05277AAA
 
 ==== How to run Waf
 
-The executable may be run directly through a Python interpreter such as http://www.python.org[cPython] 2.5 to 3.6, http://pypy.org[Pypy] or http://www.jython.org[Jython] >= 2.5.
+The executable may be run directly through a Python interpreter such as http://www.python.org[cPython] 2.5 to 3.7, http://pypy.org[Pypy] or http://www.jython.org[Jython] >= 2.5.
 It provides its own library compressed as a binary stream within the file. Upon execution, this library is uncompressed into a hidden folder in the directory of the file (it is re-created when removed). This scheme enables different Waf versions to be executed from the same folders and under various Python interpreter versions:
 
 [source,shishell]
